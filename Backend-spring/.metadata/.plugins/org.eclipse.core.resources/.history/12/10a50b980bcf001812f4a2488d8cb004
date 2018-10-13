@@ -1,0 +1,5 @@
+package com.example.tmc.controller;
+
+public class TicketController {
+
+}

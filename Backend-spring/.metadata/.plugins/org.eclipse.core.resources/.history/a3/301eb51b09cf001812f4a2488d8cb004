@@ -1,0 +1,55 @@
+package com.example.tmc.model;
+
+public class Ticket {
+	
+	private int tktID;
+	private String raisedBy;
+	private String createdDate;
+	private String assignedTo;
+	private String subject;
+	private String description;
+	
+	private enum currentStatus{
+		ASSIGNED, OPEN, CLOSED;
+	}
+	private currentStatus cs;
+	
+	public int getTktID() {
+		return tktID;
+	}
+	public void setTktID(int tktID) {
+		this.tktID = tktID;
+	}
+	public String getRaisedBy() {
+		return raisedBy;
+	}
+	public void setRaisedBy(String raisedBy) {
+		this.raisedBy = raisedBy;
+	}
+	public String getCreatedDate() {
+		return createdDate;
+	}
+	public void setCreatedDate(String createdDate) {
+		this.createdDate = createdDate;
+	}
+	public String getAssignedTo() {
+		return assignedTo;
+	}
+	public void setAssignedTo(String assignedTo) {
+		this.assignedTo = assignedTo;
+	}
+	public String getSubject() {
+		return subject;
+	}
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+		
+	
+}

@@ -1,0 +1,16 @@
+package com.example.tmc.model;
+
+public class Ticket {
+	
+	private int tktID;
+	private String raisedBy;
+	private String createdDate;
+	private String assignedTo;
+	private String subject;
+	private String description;
+	private enum currentStatus{
+		ASSIGNED, OPEN, CLOSED;
+	}
+		
+	
+}
