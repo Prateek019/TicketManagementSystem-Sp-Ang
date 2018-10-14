@@ -15,7 +15,7 @@ import com.example.tmc.model.Ticket;
 
 @RestController
 @RequestMapping(value="/")
-@CrossOrigin(origins={"localhost:4200"})
+@CrossOrigin
 public class TicketController {
 
 	@Autowired
